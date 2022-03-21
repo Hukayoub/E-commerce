@@ -1,0 +1,17 @@
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 8px;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color:dodgerblue
+
+}

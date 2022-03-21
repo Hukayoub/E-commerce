@@ -1,0 +1,45 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-5">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</h1>
+        <a routerLink="menu" >ORDER NOW !! <i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
+<div class="container mt-5 mb-5">
+<div class="step">
+    <h3>How to get your product</h3>
+    <div class="row">
+        <div class="col-4">
+           <div class="stepBox mt-3">
+            <h1>1</h1>
+            <p>Select your product</p>
+           </div>
+        </div>
+        <div class="col-4">
+            <div class="stepBox mt-3">
+                <h1>2</h1>
+                <p>Fill the details</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="stepBox mt-3">
+                <h1>3</h1>
+                <p>Your order delivered in 1 minute</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- product box  -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-3" *ngFor="let pd of productData">
+            <div class="productBox">
+                <img src="{{pd.productImg}}" alt="">
+                <h1>{{pd.productName}}</h1>
+                <p>{{pd.productPrice}} Dh</p>
+            </div>
+        </div>
+    </div>
+</div>
